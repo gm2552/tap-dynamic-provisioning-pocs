@@ -5,3 +5,5 @@ Contains POCs for:
   - Tanzu and OpenSource RabbitMQ Operator
   - Tanzu MySQL operator
   - Bitnami Redis
+
+By default, services are deployed to a namespace call `service-instances`.
