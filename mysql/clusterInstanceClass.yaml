@@ -1,0 +1,10 @@
+apiVersion: services.apps.tanzu.vmware.com/v1alpha1
+kind: ClusterInstanceClass
+metadata:
+  name: mysql-crossplane
+spec:
+  description:
+    short: MySQL
+  provisioner:
+    xrd:
+      name: xmysqlinstances.database.example.org

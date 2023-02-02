@@ -1,0 +1,10 @@
+apiVersion: services.apps.tanzu.vmware.com/v1alpha1
+kind: ClusterInstanceClass
+metadata:
+  name: rabbitmq-crossplane
+spec:
+  description:
+    short: RabbitMQ
+  provisioner:
+    xrd:
+      name: xrabbitmqclusters.messaging.example.org

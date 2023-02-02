@@ -1,0 +1,10 @@
+apiVersion: services.apps.tanzu.vmware.com/v1alpha1
+kind: ClusterInstanceClass
+metadata:
+  name: redis-crossplane
+spec:
+  description:
+    short: Bitnami Redis
+  provisioner:
+    xrd:
+      name: xredisinstances.caching.example.org
